@@ -447,11 +447,12 @@ export default function Home() {
           </FadeIn>
 
           <FadeIn delay={0.08}>
-            <h1 className="text-5xl md:text-[4.5rem] lg:text-[5.5rem] font-extrabold tracking-tight leading-[1.05] mb-7">
-              Validate Your Startup<br />
-              Before You Waste{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 via-primary to-blue-400">
-                Months Building It
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-black tracking-[-0.03em] leading-[1.08] mb-7">
+              <span className="text-white">Validate Your Startup</span>
+              <br />
+              <span className="text-white/25 font-extrabold">Before You </span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-300 to-blue-400">
+                Commit.
               </span>
             </h1>
           </FadeIn>
